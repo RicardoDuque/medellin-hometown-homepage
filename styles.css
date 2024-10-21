@@ -108,53 +108,107 @@
   
 
 body{
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    width: 720px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 720px;
+  margin: auto;
+  color: #1D3557;
 }
 
 
 .hero{
-    height: 343px;
-    max-width: 720px;
-    background-image: url(images/hero.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
+  height: 343px;
+  max-width: 720px;
+  background-image: url(images/hero.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1px;
 }
 
 .hero h1{
-    background-color: #1d3557be;
-    width: 230px;
-    padding: 10px 10px;
-    margin: 10px auto;
-    border-radius: 8px;
-    color: #FFFFFF;
-    
+  background-color: #1d3557be;
+  width: 230px;
+  padding: 10px 10px;
+  margin: 80px auto 10px auto;
+  border-radius: 8px;
+  color: #FFFFFF;
 }
 .hero h3{
-    background-color: #29323cb2;
-    width: 480px;
-    padding: 10px 20px;
-    margin: 10px auto;
-    border-radius: 8px;
-    color: #FFFFFF; 
-    font-weight: 400;
+  background-color: #29323cb2;
+  width: 480px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 8px;
+  color: #FFFFFF; 
+  font-weight: 400;
+}
+
+#activities-bg{
+  background-color: #F1FAEE;
+  padding: 40px 0;
+}
+
+#activities-title{
+  margin: 0 0 40px 0;
+  font-size: 24px;
 }
 
 .activities{
-    display: flex;
-    color: #1D3557;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto 30px;
+}
+
+/*Indico el tamaño de cada columna de las actividades, además de definir el espacio entre ellas*/
+#a1{
+  flex: 0 0 176px;
+  margin: 0 20px 0 0;
+}
+
+#a2{
+  flex: 0 0 198px;
+  margin: 0 20px 0 20px;
+}
+
+#a3{
+  flex: 0 0 190px;
+  margin: 0 0 0 20px;
+}
+
+/*Indico que el atributo p de los id a1, a2 y a3 tendrá un tamaño de letra de 10pts*/
+#a1  p{
+  font-size: 10.5pt;
+}
+#a2  p{
+  font-size: 10.5pt;
+}
+#a3  p{
+  font-size: 10.5pt;
 }
 
 .activities img{
-    width: 120px;
+  width: 120px;
 }
 
 .guide{
-    display: flex;
-    padding: 100px;
-    
+  width: 400px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  background: linear-gradient(180deg, #485563 0%, #29323C 250%);
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.guide p{
+  font-size: 11pt;
+  font-style: italic;
+}
+
+#guide-image{
+  margin-right: 20px;
 }
