@@ -134,6 +134,7 @@ body{
   border-radius: 8px;
   color: #FFFFFF;
 }
+
 .hero h3{
   background-color: #29323cb2;
   width: 480px;
@@ -211,4 +212,17 @@ body{
 
 #guide-image{
   margin-right: 20px;
+}
+
+
+/*Animación imágenes on hover*/
+img {
+  transition: 0.7s ease;
+  }
+  
+img:hover{
+-webkit-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+transition: 0.5s ease;
 }
